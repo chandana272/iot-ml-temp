@@ -1,7 +1,7 @@
 import pandas as pd
 
 def generateAI():
-    dataset = pd.read_csv('data.csv')
+    dataset = pd.read_csv('Data.csv')
     dataset = dataset.dropna()
     X=X.reshape(-1,1)
     y=dataset.iloc[:,1].values
